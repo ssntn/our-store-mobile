@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "our-store-mobile",
-    "slug": "our-store-mobile",
+    "slug": "our-store",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -37,6 +37,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "0675ff5e-2c4e-4662-bb8f-705abc05d6ac"
+      }
+    },
+    "owner": "iansisante"
   }
 }
